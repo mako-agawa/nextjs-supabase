@@ -1,7 +1,8 @@
 import React from "react";
-import { Article } from "../types";
+
 import Link from "next/link";
 import Image from "next/image";
+import { Article } from "@/types";
 
 type ArticleCardProps = {
   article: Article;
